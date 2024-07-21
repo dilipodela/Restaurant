@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle 
 import numpy as np   
-data=pickle.load(open("C:/Users/Delip/2111CS010124/Diabetes.sav", "rb"))
+data=pickle.load(open("Diabetes.sav", "rb"))
 # def load_model():
 #     with open("C:/Users/Delip/2111CS010124/Diabetes.pkl", "rb") as file:
 #         data = pickle.load(file)
